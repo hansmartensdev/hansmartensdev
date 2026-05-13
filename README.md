@@ -9,13 +9,8 @@ Web designer & developer based in **Veghel, the Netherlands**. Sixteen years of 
 ### Currently
 
 - Maintaining **[Astro Rocket](https://astro.build/themes/details/astro-rocket/)** — a free, production-ready Astro theme listed on the official directory.
-- Writing about Astro, performance, and the craft of the web on [hansmartens.dev/blog](https://hansmartens.dev/blog).
+- Writing about Astro, Astro Rocket, performance, and the craft of the web on [hansmartens.dev/blog](https://hansmartens.dev/blog).
 - Available for new projects — see [hansmartens.dev](https://hansmartens.dev).
-
-### Featured projects
-
-- **[Astro Rocket](https://github.com/hansmartensdev/Astro-Rocket)** — Free, production-ready Astro theme with a full component library, dark mode, MDX blog, and a perfect Lighthouse score out of the box — Performance, Accessibility, Best Practices, and SEO all maxed out (results can vary by a point or two between runs). Live demo: [astrorocket.dev](https://astrorocket.dev).
-- **[hansmartens.dev](https://hansmartens.dev)** — My portfolio and blog, built on Astro Rocket. 
 
 ### Find me
 
