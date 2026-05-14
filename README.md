@@ -20,4 +20,4 @@ Web designer & developer based in **Veghel, the Netherlands**. Sixteen years of 
 
 ---
 
-<sub>Banner and site share the same OKLCH brand tokens — one design system, everywhere.</sub>
+
