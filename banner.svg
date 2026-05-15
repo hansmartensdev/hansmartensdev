@@ -1,0 +1,33 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hans Martens Dev — Web Designer and Developer">
+  <!-- Background (indigo brand, blue-800 hex maps closer to oklch(52% .22 264) than Tailwind's indigo hex) -->
+  <rect width="1200" height="300" fill="#1e40af"/>
+
+  <!-- Subtle vertical accent between icon and text -->
+  <line x1="294" y1="64" x2="294" y2="236" stroke="#dbeafe" stroke-opacity="0.25" stroke-width="1"/>
+
+  <!-- Lucide Rocket icon (left, scaled from 24x24 base) -->
+  <g transform="translate(120, 78) scale(6)" fill="none" stroke="#eff6ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
+    <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/>
+    <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/>
+    <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/>
+    <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/>
+  </g>
+
+  <!-- Name -->
+  <text x="334" y="138" font-size="76" letter-spacing="-3" font-weight="800" fill="#eff6ff" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">Hans Martens Dev</text>
+
+  <!-- Tagline -->
+  <text x="338" y="184" font-size="30" font-weight="500" fill="#dbeafe" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">Web Designer &amp; Developer</text>
+
+  <!-- Divider line -->
+  <line x1="338" y1="208" x2="940" y2="208" stroke="#93c5fd" stroke-opacity="0.5" stroke-width="1"/>
+
+  <!-- URL / location -->
+  <text x="338" y="240" font-size="20" font-weight="500" fill="#dbeafe" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">hansmartens.dev &#183; Veghel, the Netherlands</text>
+
+  <!-- Corner brackets -->
+  <path d="M 36 60 L 36 36 L 60 36" stroke="#93c5fd" stroke-width="1.5" fill="none" stroke-opacity="0.45"/>
+  <path d="M 1140 36 L 1164 36 L 1164 60" stroke="#93c5fd" stroke-width="1.5" fill="none" stroke-opacity="0.45"/>
+  <path d="M 36 240 L 36 264 L 60 264" stroke="#93c5fd" stroke-width="1.5" fill="none" stroke-opacity="0.45"/>
+  <path d="M 1140 264 L 1164 264 L 1164 240" stroke="#93c5fd" stroke-width="1.5" fill="none" stroke-opacity="0.45"/>
+</svg>
