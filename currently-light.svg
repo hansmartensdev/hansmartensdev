@@ -1,0 +1,84 @@
+<svg width="1200" height="440" viewBox="0 0 1200 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Currently shipping">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="440" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f5f7ff"/>
+    </linearGradient>
+    <linearGradient id="cardAccent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="440" fill="url(#bg)" rx="14"/>
+  <rect x="0.5" y="0.5" width="1199" height="439" rx="13.5" fill="none" stroke="#e0e7ff"/>
+
+  <!-- Section title -->
+  <rect x="32" y="28" width="4" height="22" fill="#6366f1" rx="2"/>
+  <text x="48" y="46" font-family="'Outfit', system-ui, sans-serif" font-weight="700" font-size="18" letter-spacing="-0.4" fill="#1e1b4b">CURRENTLY SHIPPING</text>
+  <text x="1168" y="46" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13" fill="#6366f1">04 · in progress</text>
+
+  <!-- ===== Card 1 — Astro Rocket ===== -->
+  <g>
+    <rect x="32" y="72" width="568" height="156" rx="12" fill="#ffffff" stroke="#e0e7ff"/>
+    <rect x="32" y="72" width="4" height="156" fill="url(#cardAccent)" rx="2"/>
+    <!-- icon -->
+    <rect x="52" y="92" width="36" height="36" rx="8" fill="#eef2ff"/>
+    <text x="70" y="118" text-anchor="middle" font-family="'Outfit', system-ui, sans-serif" font-weight="800" font-size="18" fill="#4f46e5">★</text>
+    <!-- title -->
+    <text x="104" y="106" font-family="'Outfit', system-ui, sans-serif" font-weight="700" font-size="20" fill="#1e1b4b">Astro Rocket</text>
+    <text x="104" y="126" font-family="'JetBrains Mono', monospace" font-size="12" fill="#6366f1">free · production-ready theme</text>
+    <!-- body -->
+    <text x="52" y="158" font-family="'Outfit', system-ui, sans-serif" font-size="14" fill="#475569">
+      <tspan x="52" dy="0">Listed on the official Astro directory. Full design system,</tspan>
+      <tspan x="52" dy="20">57+ components, 12 themes, perfect Lighthouse score.</tspan>
+    </text>
+    <!-- link -->
+    <text x="52" y="212" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600" fill="#4f46e5">astrorocket.dev  →</text>
+  </g>
+
+  <!-- ===== Card 2 — Writing ===== -->
+  <g>
+    <rect x="616" y="72" width="552" height="156" rx="12" fill="#ffffff" stroke="#e0e7ff"/>
+    <rect x="616" y="72" width="4" height="156" fill="url(#cardAccent)" rx="2"/>
+    <rect x="636" y="92" width="36" height="36" rx="8" fill="#eef2ff"/>
+    <text x="654" y="118" text-anchor="middle" font-family="'Outfit', system-ui, sans-serif" font-weight="800" font-size="18" fill="#4f46e5">✎</text>
+    <text x="688" y="106" font-family="'Outfit', system-ui, sans-serif" font-weight="700" font-size="20" fill="#1e1b4b">Writing</text>
+    <text x="688" y="126" font-family="'JetBrains Mono', monospace" font-size="12" fill="#6366f1">long-form · every other week</text>
+    <text x="636" y="158" font-family="'Outfit', system-ui, sans-serif" font-size="14" fill="#475569">
+      <tspan x="636" dy="0">On Astro, performance, design tokens, and the craft</tspan>
+      <tspan x="636" dy="20">of the web. Honest essays, no hype.</tspan>
+    </text>
+    <text x="636" y="212" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600" fill="#4f46e5">hansmartens.dev/blog  →</text>
+  </g>
+
+  <!-- ===== Card 3 — Open for work ===== -->
+  <g>
+    <rect x="32" y="248" width="568" height="156" rx="12" fill="#ffffff" stroke="#e0e7ff"/>
+    <rect x="32" y="248" width="4" height="156" fill="#10b981" rx="2"/>
+    <rect x="52" y="268" width="36" height="36" rx="8" fill="#d1fae5"/>
+    <circle cx="70" cy="286" r="5" fill="#10b981"/>
+    <text x="104" y="282" font-family="'Outfit', system-ui, sans-serif" font-weight="700" font-size="20" fill="#1e1b4b">Open for new work</text>
+    <text x="104" y="302" font-family="'JetBrains Mono', monospace" font-size="12" fill="#059669">available · 2026 slots</text>
+    <text x="52" y="334" font-family="'Outfit', system-ui, sans-serif" font-size="14" fill="#475569">
+      <tspan x="52" dy="0">Taking on a small number of projects for designers,</tspan>
+      <tspan x="52" dy="20">founders, and teams who want a site built to last.</tspan>
+    </text>
+    <text x="52" y="388" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600" fill="#4f46e5">hansmartens.dev/contact  →</text>
+  </g>
+
+  <!-- ===== Card 4 — Learning in public ===== -->
+  <g>
+    <rect x="616" y="248" width="552" height="156" rx="12" fill="#ffffff" stroke="#e0e7ff"/>
+    <rect x="616" y="248" width="4" height="156" fill="url(#cardAccent)" rx="2"/>
+    <rect x="636" y="268" width="36" height="36" rx="8" fill="#eef2ff"/>
+    <text x="654" y="294" text-anchor="middle" font-family="'Outfit', system-ui, sans-serif" font-weight="800" font-size="18" fill="#4f46e5">◊</text>
+    <text x="688" y="282" font-family="'Outfit', system-ui, sans-serif" font-weight="700" font-size="20" fill="#1e1b4b">Learning in public</text>
+    <text x="688" y="302" font-family="'JetBrains Mono', monospace" font-size="12" fill="#6366f1">notes · experiments · sketches</text>
+    <text x="636" y="334" font-family="'Outfit', system-ui, sans-serif" font-size="14" fill="#475569">
+      <tspan x="636" dy="0">OKLCH colour systems, native CSS view transitions,</tspan>
+      <tspan x="636" dy="20">structured data at scale, the Astro 6 content layer.</tspan>
+    </text>
+    <text x="636" y="388" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600" fill="#4f46e5">follow along  →</text>
+  </g>
+</svg>

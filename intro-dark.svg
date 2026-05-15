@@ -1,0 +1,34 @@
+<svg width="1200" height="240" viewBox="0 0 1200 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hi, I'm Hans">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b0a1a"/>
+      <stop offset="1" stop-color="#13112b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="240" fill="url(#bg)" rx="14"/>
+  <rect x="0.5" y="0.5" width="1199" height="239" rx="13.5" fill="none" stroke="#312e81"/>
+
+  <!-- Corner brackets -->
+  <path d="M 28 48 L 28 28 L 48 28" stroke="#818cf8" stroke-width="1.5" fill="none" stroke-opacity="0.55"/>
+  <path d="M 1152 28 L 1172 28 L 1172 48" stroke="#818cf8" stroke-width="1.5" fill="none" stroke-opacity="0.55"/>
+  <path d="M 28 192 L 28 212 L 48 212" stroke="#818cf8" stroke-width="1.5" fill="none" stroke-opacity="0.55"/>
+  <path d="M 1152 212 L 1172 212 L 1172 192" stroke="#818cf8" stroke-width="1.5" fill="none" stroke-opacity="0.55"/>
+
+  <!-- Accent dot -->
+  <circle cx="64" cy="72" r="6" fill="#818cf8"/>
+
+  <!-- Headline -->
+  <text x="84" y="80" font-family="'Outfit', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-weight="800" font-size="38" letter-spacing="-1.5" fill="#eef2ff">Hi, I'm Hans</text>
+  <text x="320" y="76" font-family="'JetBrains Mono', ui-monospace, monospace" font-weight="500" font-size="14" fill="#a5b4fc">// web designer &amp; developer · 16 years of craft</text>
+
+  <!-- Body -->
+  <text x="64" y="124" font-family="'Outfit', system-ui, sans-serif" font-weight="400" font-size="18" fill="#cbd5e1">
+    <tspan x="64" dy="0">I build fast, modern websites with Astro — clean design, solid structure, honest communication.</tspan>
+    <tspan x="64" dy="28">Based in Veghel, the Netherlands, working with clients worldwide.</tspan>
+    <tspan x="64" dy="40" fill="#94a3b8">I care about three things, in this order: the visitor's experience, the code that delivers it,</tspan>
+    <tspan x="64" dy="24" fill="#94a3b8">and the work being maintainable a year from now.</tspan>
+  </text>
+
+  <!-- Right accent -->
+  <rect x="1110" y="64" width="3" height="112" fill="#818cf8" rx="1.5"/>
+</svg>

@@ -1,0 +1,104 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hans Martens — Web Designer and Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b0a1a"/>
+      <stop offset="1" stop-color="#161433"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a5b4fc"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#818cf8" fill-opacity="0.18"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.18" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#6366f1" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#dots)"/>
+  <rect width="1200" height="320" fill="url(#glow)"/>
+
+  <!-- Corner brackets -->
+  <path d="M 36 60 L 36 36 L 60 36" stroke="#818cf8" stroke-width="1.5" fill="none" stroke-opacity="0.55"/>
+  <path d="M 1140 36 L 1164 36 L 1164 60" stroke="#818cf8" stroke-width="1.5" fill="none" stroke-opacity="0.55"/>
+  <path d="M 36 260 L 36 284 L 60 284" stroke="#818cf8" stroke-width="1.5" fill="none" stroke-opacity="0.55"/>
+  <path d="M 1140 284 L 1164 284 L 1164 260" stroke="#818cf8" stroke-width="1.5" fill="none" stroke-opacity="0.55"/>
+
+  <!-- H monogram badge -->
+  <g filter="url(#shadow)">
+    <rect x="90" y="90" width="140" height="140" rx="22" fill="url(#badge)"/>
+    <text x="160" y="160"
+          text-anchor="middle" dominant-baseline="central"
+          fill="#0b0a1a"
+          font-family="'Outfit', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+          font-weight="800" font-size="96" letter-spacing="-3">H</text>
+  </g>
+
+  <!-- Vertical divider -->
+  <line x1="270" y1="104" x2="270" y2="216" stroke="#818cf8" stroke-opacity="0.32" stroke-width="1"/>
+
+  <!-- Wordmark -->
+  <text x="298" y="150"
+        font-family="'Outfit', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-weight="800" font-size="68" letter-spacing="-2.5"
+        fill="#eef2ff">Hans Martens</text>
+
+  <!-- Tagline -->
+  <text x="302" y="192"
+        font-family="'Outfit', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-weight="500" font-size="26"
+        fill="#a5b4fc">Web Designer &amp; Developer</text>
+
+  <!-- Accent bar -->
+  <rect x="302" y="208" width="56" height="3" rx="1.5" fill="#818cf8"/>
+
+  <!-- Sub line -->
+  <text x="302" y="244"
+        font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace"
+        font-weight="500" font-size="15"
+        fill="#94a3b8">hansmartens.dev  ·  Veghel, the Netherlands</text>
+
+  <!-- Chips (right) -->
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="600">
+    <g>
+      <rect x="868" y="108" width="92" height="30" rx="15" fill="#1e1b4b" stroke="#4338ca"/>
+      <text x="914" y="128" text-anchor="middle" fill="#c7d2fe">Astro</text>
+    </g>
+    <g>
+      <rect x="970" y="108" width="130" height="30" rx="15" fill="#1e1b4b" stroke="#4338ca"/>
+      <text x="1035" y="128" text-anchor="middle" fill="#c7d2fe">TypeScript</text>
+    </g>
+    <g>
+      <rect x="1110" y="108" width="54" height="30" rx="15" fill="#6366f1"/>
+      <text x="1137" y="128" text-anchor="middle" fill="#ffffff">16y</text>
+    </g>
+    <g>
+      <rect x="868" y="148" width="138" height="30" rx="15" fill="#1e1b4b" stroke="#4338ca"/>
+      <text x="937" y="168" text-anchor="middle" fill="#c7d2fe">Performance</text>
+    </g>
+    <g>
+      <rect x="1016" y="148" width="86" height="30" rx="15" fill="#1e1b4b" stroke="#4338ca"/>
+      <text x="1059" y="168" text-anchor="middle" fill="#c7d2fe">Design</text>
+    </g>
+    <g>
+      <rect x="1112" y="148" width="52" height="30" rx="15" fill="#1e1b4b" stroke="#4338ca"/>
+      <text x="1138" y="168" text-anchor="middle" fill="#c7d2fe">SEO</text>
+    </g>
+    <g>
+      <rect x="868" y="188" width="186" height="30" rx="15" fill="#312e81" stroke="#4338ca"/>
+      <text x="961" y="208" text-anchor="middle" fill="#e0e7ff">Open to new projects</text>
+    </g>
+    <g>
+      <rect x="1064" y="188" width="100" height="30" rx="15" fill="#10b981" fill-opacity="0.18" stroke="#10b981" stroke-opacity="0.5"/>
+      <circle cx="1078" cy="203" r="4" fill="#34d399"/>
+      <text x="1118" y="208" text-anchor="middle" fill="#6ee7b7">available</text>
+    </g>
+  </g>
+</svg>
