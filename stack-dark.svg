@@ -1,0 +1,93 @@
+<svg width="1200" height="380" viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tech I reach for">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b0a1a"/>
+      <stop offset="1" stop-color="#13112b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="380" fill="url(#bg)" rx="14"/>
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="13.5" fill="none" stroke="#312e81"/>
+
+  <rect x="32" y="28" width="4" height="22" fill="#818cf8" rx="2"/>
+  <text x="48" y="46" font-family="'Outfit', system-ui, sans-serif" font-weight="700" font-size="18" letter-spacing="-0.4" fill="#eef2ff">TECH I REACH FOR</text>
+  <text x="1168" y="46" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13" fill="#a5b4fc">five groups · curated</text>
+
+  <!-- Build -->
+  <text x="48" y="110" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="13" fill="#a5b4fc">BUILD</text>
+  <g font-family="'Outfit', system-ui, sans-serif" font-size="13" font-weight="600">
+    <rect x="180" y="92" width="80" height="32" rx="16" fill="#6366f1"/>
+    <text x="220" y="113" text-anchor="middle" fill="#ffffff">Astro</text>
+    <rect x="272" y="92" width="64" height="32" rx="16" fill="#1e1b4b" stroke="#4338ca"/>
+    <text x="304" y="113" text-anchor="middle" fill="#c7d2fe">Vite</text>
+    <rect x="348" y="92" width="84" height="32" rx="16" fill="#1e1b4b" stroke="#4338ca"/>
+    <text x="390" y="113" text-anchor="middle" fill="#c7d2fe">Node.js</text>
+    <rect x="444" y="92" width="68" height="32" rx="16" fill="#1e1b4b" stroke="#4338ca"/>
+    <text x="478" y="113" text-anchor="middle" fill="#c7d2fe">pnpm</text>
+    <rect x="524" y="92" width="78" height="32" rx="16" fill="#1e1b4b" stroke="#4338ca"/>
+    <text x="563" y="113" text-anchor="middle" fill="#c7d2fe">Vitest</text>
+  </g>
+
+  <line x1="48" y1="146" x2="1152" y2="146" stroke="#312e81"/>
+
+  <!-- Frontend -->
+  <text x="48" y="184" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="13" fill="#a5b4fc">FRONTEND</text>
+  <g font-family="'Outfit', system-ui, sans-serif" font-size="13" font-weight="600">
+    <rect x="180" y="166" width="106" height="32" rx="16" fill="#6366f1"/>
+    <text x="233" y="187" text-anchor="middle" fill="#ffffff">TypeScript</text>
+    <rect x="298" y="166" width="120" height="32" rx="16" fill="#1e1b4b" stroke="#4338ca"/>
+    <text x="358" y="187" text-anchor="middle" fill="#c7d2fe">Tailwind CSS</text>
+    <rect x="430" y="166" width="56" height="32" rx="16" fill="#1e1b4b" stroke="#4338ca"/>
+    <text x="458" y="187" text-anchor="middle" fill="#c7d2fe">MDX</text>
+    <rect x="498" y="166" width="64" height="32" rx="16" fill="#1e1b4b" stroke="#4338ca"/>
+    <text x="530" y="187" text-anchor="middle" fill="#c7d2fe">React</text>
+    <rect x="574" y="166" width="86" height="32" rx="16" fill="#1e1b4b" stroke="#4338ca"/>
+    <text x="617" y="187" text-anchor="middle" fill="#c7d2fe">View Trns</text>
+  </g>
+
+  <line x1="48" y1="220" x2="1152" y2="220" stroke="#312e81"/>
+
+  <!-- Design -->
+  <text x="48" y="258" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="13" fill="#a5b4fc">DESIGN</text>
+  <g font-family="'Outfit', system-ui, sans-serif" font-size="13" font-weight="600">
+    <rect x="180" y="240" width="68" height="32" rx="16" fill="#1e1b4b" stroke="#4338ca"/>
+    <text x="214" y="261" text-anchor="middle" fill="#c7d2fe">Figma</text>
+    <rect x="260" y="240" width="124" height="32" rx="16" fill="#6366f1"/>
+    <text x="322" y="261" text-anchor="middle" fill="#ffffff">OKLCH tokens</text>
+    <rect x="396" y="240" width="68" height="32" rx="16" fill="#1e1b4b" stroke="#4338ca"/>
+    <text x="430" y="261" text-anchor="middle" fill="#c7d2fe">Lucide</text>
+    <rect x="476" y="240" width="116" height="32" rx="16" fill="#1e1b4b" stroke="#4338ca"/>
+    <text x="534" y="261" text-anchor="middle" fill="#c7d2fe">design systems</text>
+  </g>
+
+  <line x1="48" y1="294" x2="1152" y2="294" stroke="#312e81"/>
+
+  <!-- Hosting -->
+  <text x="48" y="332" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="13" fill="#a5b4fc">HOSTING</text>
+  <g font-family="'Outfit', system-ui, sans-serif" font-size="13" font-weight="600">
+    <rect x="180" y="314" width="76" height="32" rx="16" fill="#1e1b4b" stroke="#4338ca"/>
+    <text x="218" y="335" text-anchor="middle" fill="#c7d2fe">Netlify</text>
+    <rect x="268" y="314" width="72" height="32" rx="16" fill="#1e1b4b" stroke="#4338ca"/>
+    <text x="304" y="335" text-anchor="middle" fill="#c7d2fe">Vercel</text>
+    <rect x="352" y="314" width="96" height="32" rx="16" fill="#1e1b4b" stroke="#4338ca"/>
+    <text x="400" y="335" text-anchor="middle" fill="#c7d2fe">Cloudflare</text>
+    <rect x="460" y="314" width="74" height="32" rx="16" fill="#1e1b4b" stroke="#4338ca"/>
+    <text x="497" y="335" text-anchor="middle" fill="#c7d2fe">Resend</text>
+  </g>
+
+  <!-- Right side note -->
+  <g>
+    <rect x="900" y="92" width="252" height="254" rx="12" fill="#1e1b4b" stroke="#4338ca"/>
+    <text x="916" y="120" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="12" fill="#a5b4fc">// philosophy</text>
+    <text x="916" y="156" font-family="'Outfit', system-ui, sans-serif" font-weight="700" font-size="16" letter-spacing="-0.3" fill="#eef2ff">
+      <tspan x="916" dy="0">Pick the boring</tspan>
+      <tspan x="916" dy="22">stable thing. Make it</tspan>
+      <tspan x="916" dy="22">fast. Make it last.</tspan>
+    </text>
+    <line x1="916" y1="244" x2="980" y2="244" stroke="#818cf8" stroke-width="2"/>
+    <text x="916" y="272" font-family="'Outfit', system-ui, sans-serif" font-size="13" fill="#cbd5e1">
+      <tspan x="916" dy="0">Hype fades, fundamentals</tspan>
+      <tspan x="916" dy="20">compound. Sixteen years in,</tspan>
+      <tspan x="916" dy="20">still building for the long run.</tspan>
+    </text>
+  </g>
+</svg>
