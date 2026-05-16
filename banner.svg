@@ -36,7 +36,7 @@
 
   <line x1="338" y1="208" x2="940" y2="208" stroke="#A5B4FC" stroke-opacity="0.5" stroke-width="1"/>
 
-  <text x="338" y="240" font-size="20" font-weight="500" fill="#E0E7FF" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">hansmartens.dev &#183; Veghel, the Netherlands</text>
+  <text x="338" y="240" font-size="20" font-weight="500" fill="#E0E7FF" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">hansmartens.dev &#183; open for new projects</text>
 
   <path d="M 36 60 L 36 36 L 60 36" stroke="#A5B4FC" stroke-width="1.5" fill="none" stroke-opacity="0.45"/>
   <path d="M 1140 36 L 1164 36 L 1164 60" stroke="#A5B4FC" stroke-width="1.5" fill="none" stroke-opacity="0.45"/>
