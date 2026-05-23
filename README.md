@@ -4,7 +4,7 @@
 
 ### Hi, I'm Hans
 
-Web designer & developer based in Veghel, the Netherlands. Sixteen years of craft — design, code, performance, and honest communication. I build fast, modern websites with [Astro](https://astro.build).
+Web designer & developer based in Veghel, the Netherlands. Building fast, modern websites with the [Astro](https://astro.build) framework. Sixteen years of design and front-end experience, with strong Core Web Vitals on every project.
 
 ### Currently
 
