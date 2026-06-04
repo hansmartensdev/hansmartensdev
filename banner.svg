@@ -2,7 +2,7 @@
   <defs>
     <linearGradient id="bgGrad" x1="600" y1="0" x2="600" y2="300" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#7400ef"/>
-      <stop offset="1" stop-color="#47168d"/>
+      <stop offset="1" stop-color="#000000"/>
     </linearGradient>
 
     <radialGradient id="brandGlow" cx="700" cy="150" r="520" gradientUnits="userSpaceOnUse">
