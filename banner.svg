@@ -1,0 +1,45 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hans Martens Dev — Web Designer and Developer">
+  <defs>
+    <linearGradient id="bgGrad" x1="600" y1="0" x2="600" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7400ef"/>
+      <stop offset="1" stop-color="#47168d"/>
+    </linearGradient>
+
+    <radialGradient id="brandGlow" cx="700" cy="150" r="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9f75ff" stop-opacity="0.40"/>
+      <stop offset="0.55" stop-color="#8444f9" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#8444f9" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="dotGrid" x="0" y="0" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect width="1200" height="300" fill="url(#dotGrid)"/>
+  <rect width="1200" height="300" fill="url(#brandGlow)"/>
+
+  <line x1="294" y1="64" x2="294" y2="236" stroke="#ede9fe" stroke-opacity="0.25" stroke-width="1"/>
+
+  <g transform="translate(120, 78)">
+    <rect width="144" height="144" rx="24" fill="#7400ef"/>
+    <rect width="144" height="144" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
+    <text x="72" y="72" text-anchor="middle" dominant-baseline="central"
+          font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif"
+          font-size="96" font-weight="800" fill="#ffffff"
+          letter-spacing="-2">H</text>
+  </g>
+
+  <text x="334" y="138" font-size="76" letter-spacing="-3" font-weight="800" fill="#f5f3ff" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">Hans Martens Dev</text>
+  <text x="338" y="184" font-size="30" font-weight="500" fill="#ede9fe" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">Web Designer &amp; Developer</text>
+
+  <line x1="338" y1="208" x2="940" y2="208" stroke="#beadfb" stroke-opacity="0.5" stroke-width="1"/>
+
+  <text x="338" y="240" font-size="20" font-weight="500" fill="#ede9fe" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">hansmartens.dev &#183; open for new projects</text>
+
+  <path d="M 36 60 L 36 36 L 60 36" stroke="#beadfb" stroke-width="1.5" fill="none" stroke-opacity="0.45"/>
+  <path d="M 1140 36 L 1164 36 L 1164 60" stroke="#beadfb" stroke-width="1.5" fill="none" stroke-opacity="0.45"/>
+  <path d="M 36 240 L 36 264 L 60 264" stroke="#beadfb" stroke-width="1.5" fill="none" stroke-opacity="0.45"/>
+  <path d="M 1140 264 L 1164 264 L 1164 240" stroke="#beadfb" stroke-width="1.5" fill="none" stroke-opacity="0.45"/>
+</svg>
