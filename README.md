@@ -20,5 +20,3 @@ Freelance Astro developer & web designer in Veghel, the Netherlands. Building fa
 
 
 ---
-
-
