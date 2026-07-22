@@ -4,7 +4,7 @@
 
 ### Hi, I'm Hans
 
-I build free, open-source themes for Astro — like Astro Rocket, my starter theme anyone can build on. Based in Veghel, the Netherlands.
+I build free, open-source themes for Astro. Based in Veghel, the Netherlands.
 
 ### Currently
 
