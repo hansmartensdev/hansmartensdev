@@ -9,7 +9,7 @@ I build free, open-source themes for Astro. Based in Veghel, the Netherlands.
 ### Currently
 
 - Maintaining **[Astro Rocket](https://astro.build/themes/details/astro-rocket/)** — A free, lightning-fast Astro 7 starter theme to build anything on.
-- Writing about Astro, Astro Rocket, performance, and the craft of the web on [hansmartens.dev/blog](https://hansmartens.dev/blog).
+- Writing on Astro, web design, development, performance, and my Astro Rocket theme on [hansmartens.dev/blog](https://hansmartens.dev/blog).
 
 ### Find me
 
