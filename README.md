@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.svg" alt="Hans Martens Dev — Web Designer & Developer" width="100%" />
+  <img src="./banner.svg" alt="Hans Martens Dev — Astro Theme Developer" width="100%" />
 </div>
 
 ### Hi, I'm Hans
@@ -9,7 +9,7 @@ I build free, open-source themes for Astro. Based in Veghel, the Netherlands.
 ### Currently
 
 - Maintaining **[Astro Rocket](https://astro.build/themes/details/astro-rocket/)** — A free, lightning-fast Astro 7 starter theme to build anything on.
-- Writing on Astro, web design, development, performance, and my Astro Rocket theme on [hansmartens.dev/blog](https://hansmartens.dev/blog).
+- Writing about building themes, Astro, and what makes websites fast on [hansmartens.dev/blog](https://hansmartens.dev/blog).
 
 ### Find me
 
