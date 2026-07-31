@@ -10,7 +10,7 @@ Self-taught **Astro theme developer** from Veghel, the Netherlands — building 
 
 [![GitHub stars](https://img.shields.io/github/stars/hansmartensdev/Astro-Rocket?style=flat&logo=github&label=stars&color=316FFF)](https://github.com/hansmartensdev/Astro-Rocket)
 
-My new theme — sleek, very fast, and built on Astro 7, with everything you need for a modern and beautiful website: **57 designed components, 12 colour themes, dark mode, full i18n, search, SEO, and a 4×100 Lighthouse score**.
+My new theme — sleek, very fast, and built on Astro 7, with everything you need for a modern and beautiful website: **44 designed components, 12 colour themes, dark mode, full i18n, search, SEO, and a 4×100 Lighthouse score**.
 
 - 🧩 Listed in the [official Astro themes directory](https://astro.build/themes/details/astro-rocket/)
 - 🌍 Built on by developers around the world
