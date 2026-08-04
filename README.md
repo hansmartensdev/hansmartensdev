@@ -8,7 +8,7 @@ Self-taught **Astro theme developer** from Veghel, the Netherlands — building 
 
 ### 🚀 Astro Rocket
 
-[![GitHub stars](https://img.shields.io/github/stars/hansmartensdev/Astro-Rocket?style=flat&logo=github&label=stars&color=316FFF)](https://github.com/hansmartensdev/Astro-Rocket)
+[![GitHub stars](https://img.shields.io/github/stars/hansmartensdev/Astro-Rocket?style=flat&logo=github&label=stars&color=945AF2)](https://github.com/hansmartensdev/Astro-Rocket)
 
 My new theme — sleek, very fast, and built on Astro 7, with everything you need for a modern and beautiful website: **44 designed components, 12 colour themes, dark mode, full i18n, search, SEO, and a 4×100 Lighthouse score**.
 
@@ -22,9 +22,9 @@ And more themes are in the making.
 
 ### 🛠️ How I build
 
-![Astro](https://img.shields.io/badge/Astro-1A1A2E?style=flat&logo=astro&logoColor=FF5D01)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-1A1A2E?style=flat&logo=tailwindcss&logoColor=38BDF8)
-![TypeScript](https://img.shields.io/badge/TypeScript-1A1A2E?style=flat&logo=typescript&logoColor=3178C6)
+[![Astro](https://img.shields.io/badge/Astro-1A0F2E?style=flat&logo=astro&logoColor=FF5D01)](https://astro.build)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-1A0F2E?style=flat&logo=tailwindcss&logoColor=38BDF8)](https://tailwindcss.com)
+[![TypeScript](https://img.shields.io/badge/TypeScript-1A0F2E?style=flat&logo=typescript&logoColor=3178C6)](https://www.typescriptlang.org)
 
 - Every component designed to look right in every colour theme, in light and dark mode
 - Fast by default — SEO, accessibility, and performance built in from the first commit
