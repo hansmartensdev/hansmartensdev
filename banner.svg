@@ -21,13 +21,6 @@
       <stop offset="1" stop-color="#7941CD"/>
     </linearGradient>
 
-    <linearGradient id="tagline" x1="338" y1="0" x2="790" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#A97BF5"/>
-      <stop offset="0.46" stop-color="#ECE7F6"/>
-      <stop offset="0.56" stop-color="#E7F6EE"/>
-      <stop offset="1" stop-color="#18DC7A"/>
-    </linearGradient>
-
     <linearGradient id="rule" x1="338" y1="0" x2="940" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#945AF2" stop-opacity="0.75"/>
       <stop offset="1" stop-color="#18DC7A" stop-opacity="0.35"/>
@@ -57,7 +50,7 @@
   </g>
 
   <text x="334" y="138" font-size="76" letter-spacing="-3" font-weight="800" fill="#F4F1FA" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">Hans Martens Dev</text>
-  <text x="338" y="184" font-size="30" font-weight="600" fill="url(#tagline)" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">Astro Theme Developer</text>
+  <text x="338" y="184" font-size="30" font-weight="600" fill="#F4F1FA" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">Astro Theme Developer</text>
 
   <line x1="338" y1="208" x2="940" y2="208" stroke="url(#rule)" stroke-width="1"/>
 
