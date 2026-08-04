@@ -1,42 +1,67 @@
 <svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hans Martens Dev — Astro Theme Developer">
   <defs>
-    <linearGradient id="bgGrad" x1="600" y1="0" x2="600" y2="300" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#316FFF"/>
-      <stop offset="1" stop-color="#000000"/>
-    </linearGradient>
+    <radialGradient id="glowPurple" cx="150" cy="150" r="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#945AF2" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#945AF2" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#945AF2" stop-opacity="0"/>
+    </radialGradient>
 
-    <radialGradient id="brandGlow" cx="700" cy="150" r="520" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#818CF8" stop-opacity="0.40"/>
-      <stop offset="0.55" stop-color="#6366F1" stop-opacity="0.08"/>
-      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    <radialGradient id="glowEmerald" cx="1120" cy="150" r="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#18DC7A" stop-opacity="0.26"/>
+      <stop offset="0.5" stop-color="#18DC7A" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#18DC7A" stop-opacity="0"/>
     </radialGradient>
 
     <pattern id="dotGrid" x="0" y="0" width="36" height="36" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.05"/>
     </pattern>
+
+    <linearGradient id="badgeFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A97BF5"/>
+      <stop offset="1" stop-color="#7941CD"/>
+    </linearGradient>
+
+    <linearGradient id="tagline" x1="338" y1="0" x2="790" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A97BF5"/>
+      <stop offset="0.46" stop-color="#ECE7F6"/>
+      <stop offset="0.56" stop-color="#E7F6EE"/>
+      <stop offset="1" stop-color="#18DC7A"/>
+    </linearGradient>
+
+    <linearGradient id="rule" x1="338" y1="0" x2="940" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#945AF2" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#18DC7A" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <filter id="badgeShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#945AF2" flood-opacity="0.5"/>
+    </filter>
   </defs>
 
-  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect width="1200" height="300" fill="#000000"/>
   <rect width="1200" height="300" fill="url(#dotGrid)"/>
-  <rect width="1200" height="300" fill="url(#brandGlow)"/>
+  <rect width="1200" height="300" fill="url(#glowPurple)"/>
+  <rect width="1200" height="300" fill="url(#glowEmerald)"/>
 
-  <line x1="294" y1="64" x2="294" y2="236" stroke="#E0E7FF" stroke-opacity="0.25" stroke-width="1"/>
+  <line x1="294" y1="64" x2="294" y2="236" stroke="#945AF2" stroke-opacity="0.35" stroke-width="1"/>
 
-  <g transform="translate(120, 78)">
-    <rect width="144" height="144" rx="24" fill="#316FFF"/>
-    <rect width="144" height="144" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
-    <text x="72" y="72" text-anchor="middle" dominant-baseline="central"
-          font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif"
-          font-size="96" font-weight="800" fill="#ffffff"
-          letter-spacing="-2">H</text>
+  <g filter="url(#badgeShadow)">
+    <g transform="translate(120, 78)">
+      <rect width="144" height="144" rx="24" fill="url(#badgeFill)"/>
+      <rect width="144" height="144" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
+      <text x="72" y="72" text-anchor="middle" dominant-baseline="central"
+            font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif"
+            font-size="96" font-weight="800" fill="#ffffff"
+            letter-spacing="-2">H</text>
+    </g>
   </g>
 
-  <text x="334" y="138" font-size="76" letter-spacing="-3" font-weight="800" fill="#EEF2FF" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">Hans Martens Dev</text>
-  <text x="338" y="184" font-size="30" font-weight="500" fill="#E0E7FF" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">Astro Theme Developer</text>
+  <text x="334" y="138" font-size="76" letter-spacing="-3" font-weight="800" fill="#F4F1FA" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">Hans Martens Dev</text>
+  <text x="338" y="184" font-size="30" font-weight="600" fill="url(#tagline)" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">Astro Theme Developer</text>
 
-  <line x1="338" y1="208" x2="940" y2="208" stroke="#A5B4FC" stroke-opacity="0.5" stroke-width="1"/>
+  <line x1="338" y1="208" x2="940" y2="208" stroke="url(#rule)" stroke-width="1"/>
 
-  <g stroke="#E0E7FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9">
+  <g stroke="#18DC7A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95">
     <g transform="translate(338, 223) scale(0.85)">
       <circle cx="12" cy="12" r="10"/>
       <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
@@ -47,12 +72,12 @@
       <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
     </g>
   </g>
-  <text x="368" y="239" textLength="169" lengthAdjust="spacingAndGlyphs" font-size="20" font-weight="500" fill="#E0E7FF" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">hansmartens.dev</text>
-  <text x="558" y="239" text-anchor="middle" font-size="22" font-weight="700" fill="#E0E7FF" fill-opacity="0.8" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">&#183;</text>
-  <text x="608" y="239" textLength="224" lengthAdjust="spacingAndGlyphs" font-size="20" font-weight="500" fill="#E0E7FF" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">hello@hansmartens.dev</text>
+  <text x="368" y="239" textLength="169" lengthAdjust="spacingAndGlyphs" font-size="20" font-weight="500" fill="#E6DFF4" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">hansmartens.dev</text>
+  <text x="558" y="239" text-anchor="middle" font-size="22" font-weight="700" fill="#E6DFF4" fill-opacity="0.8" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">&#183;</text>
+  <text x="608" y="239" textLength="224" lengthAdjust="spacingAndGlyphs" font-size="20" font-weight="500" fill="#E6DFF4" font-family="'Outfit Variable', Outfit, system-ui, -apple-system, sans-serif">hello@hansmartens.dev</text>
 
-  <path d="M 36 60 L 36 36 L 60 36" stroke="#A5B4FC" stroke-width="1.5" fill="none" stroke-opacity="0.45"/>
-  <path d="M 1140 36 L 1164 36 L 1164 60" stroke="#A5B4FC" stroke-width="1.5" fill="none" stroke-opacity="0.45"/>
-  <path d="M 36 240 L 36 264 L 60 264" stroke="#A5B4FC" stroke-width="1.5" fill="none" stroke-opacity="0.45"/>
-  <path d="M 1140 264 L 1164 264 L 1164 240" stroke="#A5B4FC" stroke-width="1.5" fill="none" stroke-opacity="0.45"/>
+  <path d="M 36 60 L 36 36 L 60 36" stroke="#945AF2" stroke-width="1.5" fill="none" stroke-opacity="0.7"/>
+  <path d="M 36 240 L 36 264 L 60 264" stroke="#945AF2" stroke-width="1.5" fill="none" stroke-opacity="0.7"/>
+  <path d="M 1140 36 L 1164 36 L 1164 60" stroke="#18DC7A" stroke-width="1.5" fill="none" stroke-opacity="0.55"/>
+  <path d="M 1140 264 L 1164 264 L 1164 240" stroke="#18DC7A" stroke-width="1.5" fill="none" stroke-opacity="0.55"/>
 </svg>
