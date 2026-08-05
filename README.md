@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.svg" alt="Hans Martens Dev — Astro Theme Developer" width="100%" />
+  <img src="./banner.svg?v=2" alt="Hans Martens Dev — Astro Theme Developer" width="100%" />
 </div>
 
 ### 👋 Hi, I'm Hans
