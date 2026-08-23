@@ -4,7 +4,7 @@
 
 ### 👋 Hi, I'm Hans
 
-Self-taught **Astro theme developer** from Veghel, the Netherlands — building websites since 2010, over a decade of it with WordPress, and since 2022 with [Astro](https://astro.build). These days I design, build & maintain **free, open-source themes for the Astro community**. Design and code, for the love of it.
+**Astro theme developer** from Veghel, the Netherlands — building websites since 2010, over a decade of it with WordPress, and since 2022 with [Astro](https://astro.build). These days I design, build & maintain **free, open-source themes for the Astro community**. Design and code, for the love of it.
 
 ### 🚀 Astro Rocket
 
